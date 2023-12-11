@@ -12,7 +12,7 @@ import java.util.Set;
 public class Country {
     @Id
     @Column(name = "id")
-    private Integer id;
+    private Long id;
 
     private String code;
 
